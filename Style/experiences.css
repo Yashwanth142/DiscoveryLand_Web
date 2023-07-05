@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.main {
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    color: aliceblue;
+    position:absolute;
+    z-index: 10;
+}
+
+#logo {
+    width: 44px;
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.title1 {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title2 {
+    padding-left: 3px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.menuitems {
+    color:aliceblue;
+}
+.main-vid{
+    display: flex;
+}
+
+.page-title{
+    padding-top: 23%;
+    padding-left: 18%;
+    display: flex;
+    color: aliceblue;
+    font-size: 58px;
+    letter-spacing: 2px;
+    position: absolute;
+    flex-direction: column;
+}

@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.main {
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    color: aliceblue;
+    position:absolute;
+    z-index: 10;
+}
+
+#logo {
+    width: 44px;
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.title1 {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title2 {
+    padding-left: 3px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.menuitems {
+    color:aliceblue;
+}
+.main-img{
+    display: flex;
+}
+
+#img0 {
+    width: 100%;
+    height: 75%;
+    display: flex;
+}
+.page-title{
+    padding-top: 23%;
+    padding-left: 18%;
+    display: flex;
+    color: aliceblue;
+    font-size: 58px;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+.locations {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.locations-Img {
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.location {
+    font-size: 27px;
+    height: 100px;
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.end-details{
+    display:  flex;
+    justify-content: space-between;
+    margin: 0 8em;
+}
+.end-menu{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+.end-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.end-last{
+    color: gainsboro;
+    margin-left: 100px;
+    font-size: small;
+}
